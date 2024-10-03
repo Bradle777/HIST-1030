@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--I picked this one because it is such an effective, efficient speech with excellent syntax-->
+<?xml-model href="evans-W3-Schema_1.rnc" type="application/relax-ng-compact-syntax"?>
+<speech><time>Four score and seven years</time> ago our 
+    <group type="original">fathers</group> brought forth on this 
+    <place>continent</place>, a new <country government="democracy">nation</country>, 
+    conceived in <value>Liberty</value>, and dedicated to the proposition that all 
+    <group type="all people">men</group> are <value>created equal</value>. Now we areengaged in a great 
+    <event>civil war</event>, testing whether that 
+    <country government="democracy">nation</country>, or any <country government="democracy">nation</country> 
+    so conceived and so dedicated, can long endure. We are met on a great
+        <place>battle-field</place> of that war. We have come to dedicate a portion of that
+        <place>field</place>, as a final resting place for those who here gave their lives that that 
+    <country government="democracy">nation</country> might live. It is
+    altogether fitting and proper that we should do this. But, in a larger sense, we can not
+        <verb>dedicate</verb> – we can not <verb>consecrate</verb> – we can not <verb>hallow</verb> – this ground. The 
+    <group purpose="soldiers">brave men</group>, living and dead, who struggled
+    here, have consecrated it, far above our poor power to 
+    <verb>add or detract</verb>. The <group type="omniscent">world</group> will little note, nor long 
+    <verb>remember</verb> what we say here, but it can never <verb>forget</verb> what they did here. It is for 
+    <group>us</group> the living, rather, to be dedicated here to the 
+    <goal purpose="aboliton">unfinished work</goal> which they who fought here have thus far so nobly advanced. It is rather for 
+    <group type="present">us</group> to be here dedicated to the <goal purpose="abolition">great task</goal> remaining before us – that from these
+    honored dead we take increased devotion to that <goal>cause</goal> for which they gave the last
+    full measure of devotion – that we here highly resolve that these 
+    <group type="soldiers">dead</group> shall not have died in vain – that this 
+    <country government="democracy">nation</country>, under <deity role="creater">God</deity>, shall have a new birth of 
+    <value>freedom</value> – and that <institution>government</institution> of the 
+    <group type="common">people</group>,by the <group type="common">people</group>, for the <group type="common">people</group>, 
+    shall not perish from the <place>earth.</place></speech>
+
+<!--Throughout, I added an element and attribute to nation because it implies so much in this speech, as well as verbs 
+    I thought were significant in the context of the speech, like verbs expressing sacredness. He also used a lot of group 
+    pronouns which I noted with varying specific attributes -->

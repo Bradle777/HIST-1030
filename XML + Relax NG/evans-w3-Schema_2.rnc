@@ -1,0 +1,11 @@
+start = poem
+poem = element poem {title & l+ & sentence+}
+
+title = element title {text}
+l = element l {empty}
+sentence = element sentence {character & text+ & l+ & req* & action*}
+
+character = element character {id,text}
+    id = attribute xml:id {"Captain Hook"}
+req = element req {text}
+action = element action {text}

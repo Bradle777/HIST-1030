@@ -1,0 +1,60 @@
+Questions
+1. What is the name of the root element of this example?
+    <ingredients></ingredients>
+2. What is the difference between descriptive markup and presentational markup? Give an example of each 
+   type and explain a) why the descriptive markup is descriptive, b) why the presentational markup is presentational, 
+   and c) why we recommend using descriptive markup in digital humanities projects.
+     Descriptive markup identifies what the thing is, a verb, place, time, person, etc.
+     Presentational markup identifies what the document should look like, spacing, indentations, fonts, bold, italic, etc.
+     An example of descriptive markup would be <person type="jedi">Obi-Wan Kenobi</person>, because it is identifying who Obi-Wan Kenobi is.
+     An example of presentational markup would be <bold> **among us** </bold> because it is identifying the physical appearance of "among us".
+     Descriptive markup is recommended for the digital humanities because we are focused on analyzing themes and words in texts, not document 
+     preservation or digitization.
+3. Which of the following scenarios would cause a well-formedness error (red square) in an XML document?
+  (Some may be poor style because they’re confusing, while still being well-formed, and the task is to identify only the ones that 
+   are not well-formed.) For each example that is not well-formed, explain why it is not well-formed and how you might fix it.
+     a. <bookmark></bookmark> ===> Well-formed
+     b. <speech speaker="homer" speaker="bart">Doh!</speech> ===> Not well-formed. 
+        This is not well-formed because the same attribute has two different attribute values.
+        A way to fix this would be <speech speaker="homer+bart">Doh!</speech>
+     c. <speech speaker="horatio"> ===> Well-formed
+          <!-- to hamlet -->
+          <line>blah blah</line>
+        </speech>                      
+     d. <speech main character="Gertrude">   ===> Not well-formed
+          <line>blah blah</line>
+        </speech>
+        This is not well-formed because the computer sees a blank space instead of the = that is supposed to follow an attribute.
+        A way to fix this would be  <speech main_character="Gertrude">
+     e. <speech speaker="Hamlet's mother">  ===> Well-formed
+          <line>blah blah</line>
+        </speech>
+     f. <speech speaker="Gertrude">  ===> Not well-formed
+          <Line>blah blah</line>
+        </speech>
+        This is not well-formed because the start tag is not identical to the end tag, so the program does not recognize it as an element.
+        A way to fix this would be <line>blah blah</line>
+     g. <?xml version="1.0" encoding="UTF-8"?> ===> Not well-formed
+        <stooge>Curly</stooge>
+        <stooge>Larry</stooge>
+        <stooge>Moe</stooge>
+        This is not well formed because it is not enclosed by a root element, which groups together all the text.
+        A way to fix this would be enclosing all three stooge lines in a <text></text> root element 
+     h. <equation>1 < 2</equation>  ===> Not well-formed
+        This is not well formed because the lesser than sign is viewed by the program as the beginning of an end 
+        tag, and since it is not identical to the start tag, there is an error.
+        A way to fix this is replacing the < with its HTML entity     <equation>1 &lt; 2</equation>
+     i. <equation>2 > 1</equation>   ===> Well-formed
+     j. <stanza>         ===> Not well-formed
+          <line>Yoda says<quote>Do</line>
+          <line>or do not</line>
+          <line>there is no try</quote></line>
+        </stanza>
+        This is not well formed because there is a different end tag within the quote element that comes before the quote element end tag.
+        A way to fix this is by using empty tags at the beginning of the lines, which XML still recognizes as line breaks, but does not interfere with the quote element.
+        <stanza>        
+          <line/>Yoda says<quote>Do
+          <line/>or do not
+          <line/>there is no try</quote>
+        </stanza>
+            

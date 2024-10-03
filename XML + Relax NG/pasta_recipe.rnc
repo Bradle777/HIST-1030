@@ -1,0 +1,15 @@
+start = recipe
+recipe = element recipe {meta, ingredients, procedure}
+
+meta = element meta {title, time+, serves, p}
+title = element title {text}
+time = element time {type, text}
+type = attribute type {"prep" | "cook" |"starch" | "spice" | "liquid" | "herb" | "dairy"}
+serves = element serves {text}
+p = element p {text}
+
+ingredients = element ingredients {ingredient+}
+ingredient = element ingredient {type, text}
+
+procedure = element procedure {step+}
+step = element step {text}

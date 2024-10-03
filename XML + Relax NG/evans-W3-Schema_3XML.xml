@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="evans%20-%20W3-Schema_3.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<title>Makin' Whoopee</title>
+<artist>Ella Fitzgerald</artist>
+
+    <stanza>
+        <l/><rhyme type="A"><things reason="marriage">Another bride, another June
+        <l/>Another sunny honeymoon</things></rhyme>
+        <l/><rhyme type="B">Another season
+        <l/>Another reason</rhyme>
+        <l/>For <euphemism>makin' whoopee</euphemism>
+    </stanza>
+
+    <stanza>
+        <l/><rhyme type="A">A lot of shoes, a lot of rice
+        <l/>The groom is nervous, he answers twice</rhyme>
+        <l/><rhyme type="B">It's really killin'
+        <l/>That he's so willin'</rhyme>
+        <l/>To <euphemism>make whoopee</euphemism>
+    </stanza>
+
+    <stanza>
+        <l/><rhyme type="CDCD">Picture a little <home>love nest</home>
+        <l/>Down where the roses cling
+        <l/>Picture the same sweet <home>love nest</home>
+        <l/><foreshadowing>Think what a year can bring</foreshadowing></rhyme>
+    </stanza>
+
+    <stanza>
+        <l/><rhyme type="A">He's washin' dishes and baby clothes
+        <l/>He's so ambitious he even sews</rhyme>
+        <l/><rhyme type="B">But don't forget folks
+        <l/>That's what you get folks</rhyme>
+        <l/>For <euphemism>makin' whoopee</euphemism>
+    </stanza>
+
+    <stanza>
+        <l/><rhyme type="A">Another year or maybe less
+        <l/>What's this I hear? Well, you can't confess</rhyme>
+        <l/><rhyme type="B">She feels neglected
+        <l/>And he's suspected</rhyme>
+        <l/>Of <euphemism>makin' whoopee</euphemism>
+    </stanza>
+
+    <stanza>
+        <l/><rhyme type="A">She sits alone 'most every night
+        <l/>He doesn't phone her, he doesn't write</rhyme>
+        <l/><rhyme type="B">He says he's busy
+        <l/>But she says, <quote character="she">"Is he?"</quote></rhyme>
+        <l/>He's <euphemism>makin' whoopee</euphemism>
+    </stanza>
+
+    <stanza>
+        <l/><rhyme type="CDCD">He doesn't make much money
+        <l/>Only <amount>five thousand per</amount>
+        <l/>Some judge who thinks he's funny
+        <l/>Says, <quote character="judge">"You'll pay six to her"</quote></rhyme>
+    </stanza>
+
+    <stanza>
+        <l/><rhyme type="A">He says, <quote character="he">"Now Judge, suppose I fail?"</quote>
+        <l/>The Judge says, <quote character="judge">"Budge, right into jail"</quote></rhyme>
+        <l/><rhyme type="B">You'd better keep her
+        <l/>I think it's cheaper</rhyme>
+        <l/>Than <euphemism>makin' whoopee</euphemism>
+    </stanza>
+
+    <stanza>
+        <l/>You'd better keep her
+        <l/>I know it's cheaper
+        <l/>Than <euphemism>makin' whoopee</euphemism>
+    </stanza>
+</song>

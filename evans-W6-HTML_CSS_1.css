@@ -1,0 +1,44 @@
+body {
+    background-color: #666699;
+    color: #ffffff;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+h2 {
+  font-size: 80px;
+  text-align: center;
+}
+h3 {
+  font-size: 60px;
+  text-align: center;
+}
+h4 {
+  font-size: 40px;
+  text-align: left;  
+}
+
+img {
+    float: right;
+    margin: auto;
+}
+section {
+    background-color: #666699;
+}
+
+ul {
+    font-size: 25px;
+    font-family: "serif garamond";
+}
+ol {
+    font-size: 25px;
+    font-family: "serif garamond";
+}
+li {
+    text-align: left;
+}

@@ -1,0 +1,26 @@
+start = song
+song = element song {title, artist, stanza+}
+
+title = element title {text}
+artist = element artist {text}
+stanza = element stanza {mixed {l+ & rhyme* & euphemism*}}
+
+rhyme = element rhyme {type, mixed{l* | things* | home* | foreshadowing* | amount* | quote*}*}
+euphemism = element euphemism {text}
+
+things = element things {reason, (text & l*)}
+home = element home {text}
+foreshadowing = element foreshadowing {text}
+amount = element amount {text}
+quote = element quote {character, (text & l*)}
+
+l = element l {empty}
+type = attribute type {"A" | "B" | "CDCD"}
+reason = attribute reason {text}
+character = attribute character {"judge" |"he" | "she"}
+
+# Only the stanza element is guaranteed to have an l element because
+#a stanza can't exsist without lines, hence +. The other elements that have an empty l
+#element use an * because it just the line breaks just so happened so work out that way.
+#I specified the attribute values in my schema because there are only 3 characters present
+#as well as only 3 rhyme schemes, a general text is not specific enough.

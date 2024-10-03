@@ -1,0 +1,16 @@
+start =  speech
+speech = element speech {mixed{(time | group | place | country| value| event| verb | goal | deity | institution)*} | text*}
+time = element time {text}
+group = element group {mixed{(type | purpose)*}}
+type = attribute type {text}
+place = element place {text}
+purpose = attribute purpose {text}
+country = element country {mixed {government*}, text}
+government = attribute government {text}
+value = element value {text}
+event = element event {text}
+verb = element verb {text}
+goal = element goal {purpose*, text}
+deity = element deity {role, text}
+role = attribute role {text}
+institution = element institution {text}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="evans-w3-Schema_2.rnc" type="application/relax-ng-compact-syntax"?>
+<poem>
+  <title>Captain Hook</title>    
+    <l/><sentence><character xml:id="Captain Hook">Captain Hook</character><req>must remember</req>
+          <l/>Not to <action>scratch his toes</action>.</sentence>
+    <l/><sentence><character xml:id="Captain Hook">Captain Hook</character><req>must watch out</req>
+          <l/>And never <action>pick his nose</action>.</sentence>
+    <l/><sentence><character xml:id="Captain Hook">Captain Hook</character><req>must be gentle</req>
+          <l/>When he <action>shakes your hand</action>.</sentence>
+    <l/><sentence><character xml:id="Captain Hook">Captain Hook</character><req>must be careful</req>
+          <l/><action>Openin' sardine cans</action>
+          <l/>And <action>playing tag</action> and <action>pouring tea</action>
+          <l/>And <action>turnin' pages of his book</action>.</sentence>
+    <l/><sentence>Lots of folks I'm glad I ain't--
+          <l/>But mostly <character xml:id="Captain Hook">Captain Hook</character>!</sentence>
+</poem>
+
+<!--req=requirement-->
+<!-- I chose this because it is very repetitive, has a good hierarchaical 
+     structure and will good for me to practice empty elements -->

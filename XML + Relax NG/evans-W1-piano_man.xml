@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song><v1>It's <time>nine o'clock on a Saturday</time>   <!--v=verse-->
+The <people type="frequent">regular crowd</people> shuffles in
+There's an <people type="frequent" person="old_man">old man</people> sittin' next to me
+<metaphor meaning="chugging">Makin' love</metaphor> to his <alcohol>tonic and gin</alcohol> <!--I alcohol as a markup throughout just to point out its toxicity on the regulars lives-->
+He says, <quote person="old_man">"<singer>Son</singer>, can you play me a memory?
+I'm not really sure how it goes
+But it's sad and it's sweet and I knew it complete
+<description time="long_ago">When I wore a younger man's clothes</description>"</quote></v1>
+<refrain>La, la-la, di-dee-da
+La-la, di-dee-da, da-dum</refrain>
+<chorus>Sing <people type="frequent">us</people> a song, you're the piano man
+Sing us a song tonight
+Well, <people type="frequent">we</people>'re all in the mood for a melody
+And you've got us feelin' <metaphor meaning="distracted">alright</metaphor></chorus>
+<v2>Now <people type="frequent" person="john">John</people> at the <bar>bar</bar> is a friend of mine <!--I added a bar element to bar to highlight the location as a place of destitution and in this verse bar is a subsitute for alcohol-->
+He gets me my <alcohol>drinks</alcohol> for free
+And he's quick with a joke or to light up your smoke
+But there's some place that he'd rather be
+He says, <quote person="John">"<singer>Bill</singer>, I believe <pronoun reference="alcohol">this</pronoun> is killing me"</quote>
+As the <personification>smile ran away</personification> from his face
+<quote person="John">"Well, I'm sure that I could be a movie star
+If I could get out of <pronoun reference="bar">this</pronoun> place"</quote></v2>
+<refrain>Oh, la, la-la, di-dee-da
+La-la, di-dee-da, da-dum</refrain>
+<v3>Now <people type="frequent" person="Paul">Paul</people> is a real estate novelist
+Who never had time for a wife
+And he's talkin' with <people type="frequent">Davy</people>, who's still in the Navy
+And probably will be for life
+And the <people type="frequent">waitress</people> is practicing politics
+As the <people type="frequent">businessmen</people> slowly get stoned
+Yes, they're sharing a <metaphor meaning="alcohol">drink they call loneliness</metaphor>
+But it's better than drinkin' alone</v3>
+    <!--piano solo-->
+    <!--reference the first chrous for markup-->
+<chorus>Sing us a song, you're the piano man
+Sing us a song tonight
+Well, we're all in the mood for a melody
+And you've got us feelin' alright</chorus>
+<v4>It's a pretty good crowd for a <time>Saturday</time>
+And the <people type="frequent">manager</people> gives me a smile
+'Cause he knows that it's <singer skill="entertainmnet+distraction">me</singer> they've been comin' to see
+To forget about <hardship>life</hardship> for a while <!--The markup makes clear that he is referencing the difficulties they face in life-->
+And the <description>piano, it sounds like a carnival</description>
+And the <description>microphone smells like a beer</description>
+And they sit at the <bar>bar</bar> and put <metaphor meaning="money">bread</metaphor> in my jar
+And say, <quote person="patrons">"Man, what are you doin' here?"</quote></v4>
+<refrain>Oh, la, la-la, di-dee-da
+La-la, di-dee-da, da-dum</refrain>
+    <!--reference the first chrous for markup-->
+<chrous>Sing us a song, you're the piano man
+Sing us a song tonight
+Well, we're all in the mood for a melody
+And you've got us feelin' alright</chrous></song>
+
+<!--In a song it is important to make distinctions between verses and chorus, so I added those elements throughout for more organization-->

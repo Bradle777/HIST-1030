@@ -1,0 +1,52 @@
+#this can apply to songs from many different musicals, so I will error on the side of more permissive than less permissive.
+
+start = song
+song = element song {metadata, lyrics}
+
+metadata = element metadata {title+, characters, artist+, source}
+#This should always be the sequence of information so I used commas for order,
+#artist is + because for other songs there can be multiple composers.
+
+title = element title {type, text}
+    type = attribute type {"musical" | "song"}
+      #the type of title for all songs or musicals, will either be the musical or a song.
+characters = element characters {character+}
+    character = element character {actor, text}
+        actor = attribute actor {text}
+artist = element artist {text}
+source = element source {text}
+
+
+
+lyrics = element lyrics {direction* & section+ & toneshift*}
+    #directions can occur multiple times throughout or not at all and toneshifts may or may not happen, hence the *.
+    
+direction = element direction {text}
+toneshift = element toneshift {empty}
+section = element section {tone, stanza+}
+    tone = attribute tone {"neutral" | "positive" | "negative"}
+       #these three categories provide a specific structure which can be applied in many cases so specificity is better.
+
+stanza = element stanza {speaker, delivery, action*, line+} 
+    #This order of attributes makes the most sense to someone reading the script. "Who" then "how".
+    speaker = attribute speaker {text}
+      #In this specific song, I could specify who the speaker is (Rach or Natalya), but I want to apply this schema to 
+      #many musical songs, so I kept it generic with text.
+    delivery = attribute delivery {"sung" | "spoken"}
+      #sung or spoken are generic enough categories to be applied to almost all musical songs.
+    action = attribute action {text}
+    
+line = element line {mixed {chara* | place*}*}
+    #I am not sure why I need * within the mixed brackets.
+    #The final * implies that chara or place can happen 0 or more times.
+
+chara = element chara {ref, text}
+    ref = attribute ref {text} 
+      #text is a person in these instances, generically.
+place = element place {kind, text}
+    kind = attribute kind {text}
+      #This text only uses building, nature, and city, but location markup should be individualized 
+      #for each scenario so being more permissive is better, hence text.
+      
+    
+    

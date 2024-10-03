@@ -1,0 +1,20 @@
+start = song
+song = element song {title, artist, stanza+}
+
+title = element title {text}
+artist = element artist {text}
+stanza = element stanza {rhyme*, text*, euphemism*}
+
+rhyme = element rhyme {type, mixed{things*, home*, foreshadowing*, amount*, quote*}}
+euphemism = element euphemism {text}
+
+things = element things {reason, text}
+home = element home {text}
+foreshadowing = element foreshadowing {text}
+amount = element amount {text}
+quote = element quote {id, text}
+
+l = element l {empty}
+type = attribute type {"A" | "B" | "CDCD"}
+reason = attribute reason {text}
+id = attribute xml:ID {"judge" |"he" | "she"}
