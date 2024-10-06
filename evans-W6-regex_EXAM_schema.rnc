@@ -1,0 +1,18 @@
+start = novel
+novel = element novel {main-title, chapter+}
+
+main-title = element main-title {text}
+chapter = element chapter {label, title,sub-title*, diary-entry+}
+
+label = element label {text}
+title = element title {text & emph*}
+sub-title = element sub-title {text}
+diary-entry = element diary-entry {p+}
+
+p = element p {date-place* & emph* & text}
+
+emph = element emph {text}
+date-place = element date-place {date+, place*}
+
+date = element date {text}
+place = element place {text}
