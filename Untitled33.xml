@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="evans-W6-regex_EXAM_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <novel>
     <main-title> DRACULA </main-title>
     <chapter>
