@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pasta_recipe.rnc" type="application/relax-ng-compact-syntax"?>
+<recipe>
+    <meta>
+        <title>Angel Hair Pasta with Garlic, Herbs, and Parmesan Recipe</title>
+        <time type="prep">15 minutes</time>
+        <time type="cook">10 minutes</time>
+        <serves>4 as a side</serves>
+        <p>This recipe can easily be doubled. If you use delicate herbs such as basil or tarragon, toss them in at the end with the Parmesan.</p>
+    </meta>
+    <ingredients>
+        <ingredient type="starch">8 ounces angel hair pasta</ingredient>
+        <ingredient type="spice">Salt</ingredient>
+        <ingredient type="liquid">1/4 cup olive oil</ingredient>
+        <ingredient type="herb">2 Tbsp finely chopped fresh herbs such as rosemary, thyme, oregano</ingredient>
+        <ingredient type="herb">1/4 cup chopped fresh parsley</ingredient>
+        <ingredient type="spice">3 cloves of garlic, sliced</ingredient>
+        <ingredient type="spice">1/8 teaspoon chili pepper flakes (or more to taste)</ingredient>
+        <ingredient type="spice">1/2 to 1 teaspoon of freshly ground black pepper (to taste)</ingredient>
+        <ingredient type="dairy">1/2 cup grated Parmesan cheese</ingredient>
+    </ingredients>
+    <procedure>
+        <step>Bring a large pot of salted water to a boil. (1 Tbsp salt for every 2 quarts of water).</step>
+        <step>While the water is heating in step 1, heat the olive oil in a small saucepan on medium heat. Add the sliced garlic, chili pepper flakes, finely chopped herbs, and chopped parsley to the oil. Cook for one minute or until the parsley has wilted and the garlic is emitting a strong fragrance. Remove from heat.</step>
+        <step>The angel hair past will cook in about 2 minutes once it starts, so get everything ready. Once the water is at a rolling boil, add the pasta. Cook at a rolling boil until al dente. Drain the pasta and rinse briefly with cold water, just enough to stop the cooking, but not so much as to make the pasta cold. The pasta should still be quite warm.</step>
+        <step>Place pasta in a large bowl. Pour herbed garlic sauce over the pasta and gently toss to combine. Sprinkle Parmesan cheese and freshly ground black pepper over the pasta and gently toss to combine.</step>
+        <step>Serve immediately as a side dish. Reheats well if you make ahead.</step>
+    </procedure>
+</recipe>

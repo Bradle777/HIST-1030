@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500">
+    <defs>
+        <filter id="f1">
+            <feDropShadow dx="30" dy="30" stdDeviation="10" flood-opacity="0.6"/>
+        </filter>
+    </defs>
+    
+    <rect width="1040" height="960" x="0" y="60" style="fill:white;stroke:grey;stroke-width:7;" filter="url(#f1)"/>
+        <text x="70" y="160" textLength="880" lengthAdjust="spacing" style="font-size:100;font-family:serif;">Election Results (% of vote)</text>
+    
+        <rect width="240" height="600" x="120" y="280" style="fill:red;stroke:black;stroke-width:1;"/> <!-- multiplied the percentage for height to make it larger, ratio the same -->
+            <text x="175" y="960" textLength="130" lengthAdjust="spacing" style="font-size:50;font-family:serif;">Curly</text>
+            <text x="210" y="270" textLength="60" style="font-size:30;font-family:serif;">50%</text>
+        <rect width="240" height="420" x="400" y="460" style="fill:blue;stroke:black;stroke-width:1;"/>
+            <text x="455" y="960" textLength="130" lengthAdjust="spacing" style="font-size:50;font-family:serif;">Larry</text>
+            <text x="490" y="450" textLength="60" style="font-size:30;font-family:serif;">35%</text>
+        <rect width="240" height="180" x="680" y="700" style="fill:green;stroke:black;stroke-width:1;"/>
+            <text x="750" y="960" textLength="100" lengthAdjust="spacing" style="font-size:50;font-family:serif;">Moe</text>
+            <text x="770" y="690" textLength="60" style="font-size:30;font-family:serif;">15%</text>
+    <polyline points="80,220 80,880 960,880" style="fill:none;stroke:black;stroke-width:10;"/>
+</svg>

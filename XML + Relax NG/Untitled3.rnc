@@ -1,0 +1,7 @@
+start = collection
+collection = element collection {sonnet_div+}
+sonnet_div = element div {line* & sentence*}
+
+line = element line {text}
+sentence = element sentence {text}
+
